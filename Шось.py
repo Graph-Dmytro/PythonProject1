@@ -1,7 +1,7 @@
 import streamlit as st
 import base64
 # Налаштування сторінки
-st.set_page_config(page_title="З днем народження!", page_icon="catimage.png")
+st.set_page_config(page_title="З днем народження!", page_icon="💐")
 # Функція для встановлення фону
 def set_background(image_file):
     with open(image_file, "rb") as f:
