@@ -27,7 +27,7 @@ def set_background(image_file):
 
 
 # Викликаємо функцію (замініть назву на вашу)
-set_background("../PythonProject/background.png")
+set_background(background.png")
 
 
 
