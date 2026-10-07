@@ -98,8 +98,8 @@ elif st.session_state.page == 4:
 
     try:
         # Кодуємо кота та звук (замініть назви файлів на свої, якщо вони інші)
-        cat_base64 = get_base64_file("../PythonProject/catimage.png")
-        audio_base64 = get_base64_file("../PythonProject/catsound.mp3")
+        cat_base64 = get_base64_file(catimage.png")
+        audio_base64 = get_base64_file(catsound.mp3")
 
         # Створюємо HTML-код із вбудованим JavaScript для відтворення звуку при кліку
         html_code = f"""
